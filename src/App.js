@@ -1,11 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import Nav from './navigation';
+import { StatusBar } from './components';
 
 function App() {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <>
+      <StatusBar />
+      <Nav />
+    </>
   );
 }
 
