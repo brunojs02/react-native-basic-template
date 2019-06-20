@@ -7,7 +7,7 @@ react-native init projectName --template rnbs
 ## Instructions
 Go to project folder and remove default App entry point.
 ```bash
-cd projectName && rm App.json
+cd projectName && rm App.js
 ```
 In package.json scripts section, add this:
 ```
